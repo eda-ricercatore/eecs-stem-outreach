@@ -1,0 +1,721 @@
+\documentclass[letter,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{array}
+\usepackage{amssymb}
+\usepackage{setspace}
+%\usepackage[margin=1.5cm,vmargin={0pt,1cm},nohead]{geometry}
+\usepackage[margin=1in,vmargin={1in,1in}]{geometry}
+% Package that has the symbol for ``:=''
+\usepackage{txfonts}
+% Create fancy headers and footers for this document
+\usepackage{fancyhdr}
+%\usepackage{cite}
+% The ``cite'' package causes the hyperlinks for the in-text references/citations to fail. I believe it is because this package overrides the default package for referencing. Hence, only use the ``cite'' package with the IEEE format.
+% Package for ``turnstile'' binary relations, where letters are defined above and below symbols
+\usepackage{turnstile}
+\usepackage{extarrows}
+% Package that provides the cross symbol
+\usepackage{ifsym}
+\usepackage{marvosym}
+% Commands for using the package for hyperlinks - 
+\usepackage[pdftex,
+	pdftitle={Graphics and Color with LaTeX},
+	pdfauthor={Patrick W Daly},
+	pdfsubject={Importing images and use of color in LaTeX},
+	pdfkeywords={LaTeX, graphics, color},
+	pdfpagemode=UseOutlines,bookmarks, bookmarksopen,
+	pdfstartview=FitH, colorlinks, linkcolor=blue, citecolor=blue, urlcolor=red,
+]{hyperref}
+\hypersetup{colorlinks, linkcolor=blue}
+% Concatenate references
+\usepackage{cite}
+
+% definition of new \LaTeX command for the citation: \cite{Cimatti08} and \cite{Barrett09}
+% This allows mathematical/logic symbols to be typeset with the font ``Zapf Chancery'' in ``\LaTeX\ math mode''. To typeset symbols in such font, try: \mathpzc{ABCdef123}
+\DeclareMathAlphabet{\mathpzc}{OT1}{pzc}{m}{it}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Start of document
+\begin{document}
+\title{Resoures for Outreach Activities}
+\date{\today}
+\author{Zhiyang Ong
+\thanks{Email correspondence to: \href{mailto:ongz@acm.org}{ongz@acm.org}}
+}
+\maketitle
+
+\begin{abstract} 
+This is a list of resources for my outreach activities, which includes helping people explore careers in science, technology, engineering, and mathematics (STEM). It also includes resources to help parents and teachers of youths prepare youths for college. Finally, it has a list of resources to help people learn material from K-12 through advanced topics for graduate students.
+\end{abstract}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Create the table of contents
+\tableofcontents
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Youth Outreach}
+\label{youthoutreach}
+
+Resources for youth outreach: \vspace{-0.3cm}
+\begin{enumerate} \itemsep -4pt
+\item The Gilder Lehrman Institute of American History: \vspace{-0.3cm}
+	\begin{enumerate} \itemsep -2pt
+	\item \url{http://www.gilderlehrman.org/}
+	\item Resources for teachers and schools: \url{http://www.gilderlehrman.org/teachers/}
+	\item Civil War Essay Contest (for students in selected K-12 schools): \url{http://www.gilderlehrman.org/affiliate/civil_war.php}
+	\end{enumerate}
+\item educational (computer) games: \vspace{-0.3cm}
+	\begin{enumerate} \itemsep -2pt
+	\item Robocode: \url{http://en.wikipedia.org/wiki/Robocode} and \url{http://robocode.sourceforge.net/}
+	\end{enumerate}
+\item competitions for youths: \vspace{-0.3cm}
+	\begin{enumerate} \itemsep -2pt
+	\item International Geography Olympiad (for high school students): \url{http://www.geoolympiad.org/}
+	\item International Linguistic Olympiad (for high school students): \url{http://en.wikipedia.org/wiki/International_Linguistics_Olympiad}
+	\item International Philosophy Olympiad (for high school students): \url{http://www.philosophy-olympiad.org/}
+	\end{enumerate}
+\item educational resources: \vspace{-0.3cm}
+	\begin{enumerate} \itemsep -2pt
+	\item NaMaYa: \url{http://www.namaya.com/}
+	\item NIXTY: \url{http://nixty.com/}
+	\item K12 Open Ed: \url{http://www.k12opened.com/wiki/index.php/Main_Page}
+	\item Learning Is For Everyone: \url{http://www.learningis4everyone.org/}
+	\item The Smithsonian Commons Prototype: \url{http://www.si.edu/commons/prototype/}
+	\end{enumerate}
+\item underrepresented minorities: \vspace{-0.3cm}
+	\begin{enumerate} \itemsep -2pt
+	\item The University of North Carolina at Chapel Hill: \vspace{-0.2cm}
+		\begin{enumerate} \itemsep -2pt
+		\item Gary Bishop, {\it Research}, Department of Computer Science, The University of North Carolina at Chapel Hill. Available at: \url{http://wwwx.cs.unc.edu/~gb/wp/research/}; last accessed on September 3, 2010. [ Has plenty of information and resources (including learning aids and material) to help people who are visually or mobility impaired learn. ]
+		\end{enumerate}
+	\item 
+	\end{enumerate}
+\end{enumerate}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{College Preparation}
+\label{collegepreparation}
+
+College preparation: \vspace{-0.3cm}
+\begin{enumerate} \itemsep -4pt
+\item {\it Guide to Online Schools} [or {\it GuideToOnlineSchools.com}], {\it The Top 53 College Preparation Resources for Students}. Available at: \url{http://www.guidetoonlineschools.com/tips-and-tools/college-prep-resources}; last accessed on August 25, 2010.
+\item U.S. Department of Education's resources for parents to help their children learn: \url{http://www2.ed.gov/parents/academic/help/hyc.html} and \url{http://www2.ed.gov/parents/academic/help/homework/index.html}
+\item The College Board (information about SATs, college preparation, and financial aid): \url{http://www.collegeboard.com/}
+\item {\it Accreditation.org}: \vspace{-0.3cm}
+	\begin{enumerate} \itemsep -2pt
+	\item Information about the accreditation of engineering degree programs around the world
+	\item \url{http://www.accreditation.org/}
+	\end{enumerate}
+\item {\it New York Times}: \vspace{-0.3cm}
+	\begin{enumerate} \itemsep -2pt
+	\item The Learning Network: \url{http://learning.blogs.nytimes.com/category/test-yourself/}
+	\end{enumerate}
+\item University of Southern California, USC: \vspace{-0.3cm}
+	\begin{enumerate} \itemsep -2pt
+	\item USC Office of Continuing Education and Summer Programs: \vspace{-0.2cm}
+		\begin{enumerate} \itemsep -2pt
+		\item \url{http://cesp.usc.edu/}
+		\item These programs allow students in K-12 to earn credit at USC, and exposes them to different majors/professions, like medicine, engineering, creative writing, or film making.
+		\item Students can benefit from these programs, and learn about different academic disciplines before applying to college. This would help them in their college applications.
+		\item Underrepresented minority students can get scholarships to attend these programs. So, if parents have financial difficulty paying for the programs, they can seek financial aid for this.
+		\item Also, current undergraduates can also sign up for programs to learn about marketing, finance, and entrepreneurship. They can also do summer research with USC researchers.
+		\end{enumerate}
+	\item Summer sports programs for youths: \vspace{-0.2cm}
+		\begin{enumerate} \itemsep -2pt
+		\item SC Futbol Academy (USC Soccer Camps): \url{http://www.usctrojans.com/sports/w-soccer/spec-rel/021610aaa.html}
+		\item Mick Haley's USC Girls Volleyball Camp: \url{http://www.usctrojans.com/sports/w-volley/spec-rel/volley-camp.html}
+		\item Salo Swim Camp: \url{http://www.saloswimcamp.com/on-line/default.asp}
+		\item USC NYSP Trojan KidSCamp: \url{http://sait.usc.edu/recsports/site_content/youth_sports/nysptk.html}
+		\item After School Sports Connection, ASSC (operates in fall, spring, and summer): \url{http://sait.usc.edu/recsports/site_content/youth_sports/assc.html}
+		\end{enumerate}
+	\end{enumerate}
+\item Telluride Association: \vspace{-0.3cm}
+	\begin{enumerate} \itemsep -2pt
+	\item Telluride Association Summer Program (TASP) [ for high school students ]: \url{http://www.tellurideassociation.org/programs/high_school_students/tasp/tasp_general_info.html}
+	\item Telluride Association Sophomore Seminar (TASS) [ for high school students ]: \url{http://www.tellurideassociation.org/programs/high_school_students/tass/tass_general_info.html}
+	\item Resources for high school educators to nominate summer program applicants: \url{http://www.tellurideassociation.org/programs/high_school_students/hs_resources/hs_resources_general_information.html}
+	\end{enumerate}
+\end{enumerate}
+
+Resources for financial aid: \vspace{-0.3cm}
+\begin{enumerate} \itemsep -4pt
+\item {\it Guide to Online Schools} [or {\it GuideToOnlineSchools.com}], {\it Financial Aid}. Available at: \url{http://www.guidetoonlineschools.com/financial-aid}; last accessed on August 25, 2010.
+\item The Institute for College Access \& Success, {\it Links} [ Resources that provide information about student loans and student debt ]. Available at: \url{http://projectonstudentdebt.org/links.vp.html}; last accessed on September 4, 2010.
+\end{enumerate}
+
+
+Information about colleges and universities: \vspace{-0.3cm}
+\begin{enumerate} \itemsep -4pt
+\item The Institute for College Access \& Success, {\it College InSight}. Available at: \url{http://college-insight.org/}; last accessed on September 4, 2010.
+\item 
+\end{enumerate}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Science \& Engineering Outreach}
+\label{stemoutreach}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Precollege Science \& Engineering Outreach}
+\label{stemoutreachk12}
+
+Science and engineering outreach to high-school (and middle-school) students, and their parents, teachers, and career counselors: \vspace{-0.3cm}
+\begin{enumerate} \itemsep -4pt
+\item {\it MentorNet}: \vspace{-0.3cm}
+	\begin{enumerate} \itemsep -2pt
+	\item \url{http://www.mentornet.net/}
+	\item Enables people to network with scientists, engineers, and professors in Science, Technology, Engineering, and Mathematics (STEM)
+	\item Is very supportive of minorities, so that more minorities (particularly underrepresented minorities) can be attracted to STEM careers
+	\end{enumerate}
+\item International Science Olympiad (for high school students): \vspace{-0.3cm}
+	\begin{enumerate} \itemsep -2pt
+	\item International Olympiad in Informatics: \url{http://en.wikipedia.org/wiki/International_Olympiad_in_Informatics} and \url{http://www.ioinformatics.org/index.shtml}
+	\item International Mathematical Olympiad: \url{http://www.imo-official.org/}
+	\item International Physics Olympiad: \url{http://www.jyu.fi/tdk/kastdk/olympiads/}
+	\item International Chemistry Olympiad: \url{http://www.icho.sk/}
+	\item International Biology Olympiad: \url{http://www.ibo-info.org/}
+	\item \url{http://scienceolympiads.org/}
+	\end{enumerate}
+\item International Astronomy Olympiad: \url{http://www.issp.ac.ru/iao/}
+\item International Earth Science Olympiad: \url{http://en.wikipedia.org/wiki/International_Earth_Science_Olympiad}
+\item International Junior Science Olympiad (for students younger than 15 years old): \url{http://www.ijso-official.org/home}
+\item Teen Leadership Institute Science, Technology, Engineering, and Math (STEM) programs @ YWCA Greater Pittsburgh; see \url{http://www.ywcapgh.org/STEM_Programs.asp}
+\item For Inspiration and Recognition of Science and Technology (FIRST): \url{http://www.usfirst.org/} (including resources and guides to mentoring); scholarships @ \url{http://www.usfirst.org/aboutus/content.aspx?id=508}; and robotics programs @ \url{http://www.usfirst.org/roboticsprograms/frc/default.aspx?=966}
+\item Mac Hyman, ``Good Choices for Great Careers in the Mathematical Sciences,'' talk given at 2008 SIAM Annual Meeting. Available at: \url{http://client.blueskybroadcast.com/siam08/hyman/index.html}; last accessed on August 25, 2010. Also, see \url{http://meetings.siam.org/program.cfm?CONFCODE=AN08}, \url{http://www.siam.org/meetings/an08/program.php}, and \url{http://www.siam.org/meetings/an08/}.
+\item {\it RoboCup}\texttrademark\ competitions: \vspace{-0.2cm}
+	\begin{enumerate} \itemsep -2pt
+	\item Junior category for K-12 students involves contests the these areas of challenges: \vspace{-0.1cm}
+		\begin{enumerate} \itemsep -1pt
+		\item soccer
+		\item dance
+		\item rescue operations
+		\end{enumerate}
+	\item \url{http://www.robocup.org/}
+	\end{enumerate}
+\item {\it Curriki}, which is an online educational resource for teachers, students, and parents in K-12: \url{http://www.curriki.org/xwiki/bin/view/Main/About}
+\item Electrical and computer engineering and/or computer science: \vspace{-0.2cm}
+	\begin{enumerate} \itemsep -2pt
+	\item {\it TopCoder} coding and design contests: \vspace{-0.2cm}
+		\begin{enumerate} \itemsep -2pt
+		\item High School category
+		\item \url{http://www.topcoder.com/}
+		\end{enumerate}
+	\item Student Cluster Competition (SCC): \vspace{-0.2cm}
+		\begin{enumerate} \itemsep -2pt
+		\item During SC10, teams consisting of six students, undergraduate and/or high school, will showcase the amazing power of clusters and the ability to utilize open source software to solve interesting and important problems. They will compete in real-time on the exhibit floor to run a workload of real-world applications on clusters of their own design while never exceeding the dictated power limit.
+		\item During SC10 in New Orleans, teams will assemble, test and tune their machines and run the HPCC benchmarks until the starting bell rings on Monday night at the Exhibit Opening Gala where they will be given the competition data sets. In full view of conference attendees, teams will execute the prescribed workload while showing progress and science visualization output on large high-resolution displays in their areas. Teams race to correctly complete the greatest number of application runs during the competition period until the close of the exhibit floor on Wednesday evening.
+		\item \url{http://sc10.supercomputing.org/?pg=studentcluster.html}
+		\end{enumerate}
+	\item IEEE: \vspace{-0.3cm}
+		\begin{enumerate} \itemsep -2pt
+		\item {\it IEEE Educational Activities} recommended resources: \url{http://www.ieee.org/education_careers/education/preuniversity/resources/index.html}
+		\item Engineering Projects in Community Service (EPICS) in IEEE: \vspace{-0.2cm}
+			\begin{enumerate} \itemsep -2pt
+			\item High school students collaborate with college students in engineering projects to benefit the community
+			\item \url{http://www.ieee.org/education_careers/education/preuniversity/epics_high.html}
+			\end{enumerate}
+		\item Talk given by John Cohn at the IEEE International Symposium on Circuits and Systems (ISCAS), May 18-21, 2008. The talk is titled, ``Kids these days. How we can inspire the next generation of Engineers and Scientists?'' See \url{http://ewh.ieee.org/soc/icss/IEEE-ISCAS-08-Tue-Keynote-JC/IEEE-ISCAS-08-Tue-Keynote-JC.HTML}. [ Alternatively, go to: IEEE Circuits and Systems Society, \url{http://www.ieee-cas.org/}: Select the ``Resources'' tab in the menu bar, and select the ``ISCAS Keynote Videos'' option. Click on the video link with the appropriate title. ]
+		\end{enumerate}
+	\item Silicon Valley StRUT: \vspace{-0.2cm}
+		\begin{enumerate} \itemsep -2pt
+		\item Students Recycling Used Technology, StRUT, Competition; StRUT Competition consists of: \vspace{-0.1cm}
+			\begin{enumerate} \itemsep -1pt
+			\item Disassemble and Reassemble A Computer 
+			\item Create and Present a Powerpoint Presentation 
+			\item Computer Parts Identification and Challenge Test  
+			\item Team Quiz Bowl on Computer Technology and Related Subjects
+			\item \url{http://www.svstrut.org/cms/content/section/1/5/}
+			\item Teacher Resources: \url{http://www.svstrut.org/cms/component/option,com_weblinks/catid,11/Itemid,10/}
+			\item [ Resources to Support ] Curriculum for Engineering and Computer Technology Education: \url{http://www.svstrut.org/cms/content/view/8/18/}
+			\end{enumerate}
+		\item 
+		\end{enumerate}
+	\item Google Code Jam (programming contest): \url{http://code.google.com/codejam/} and \url{http://en.wikipedia.org/wiki/Google_Code_Jam}
+	\end{enumerate}
+\item Engineering Education Service Center (EESC): \vspace{-0.3cm}
+	\begin{enumerate} \itemsep -2pt
+	\item Has lists of: \vspace{-0.2cm}
+		\begin{enumerate} \itemsep -2pt
+		\item Educational material: \vspace{-0.1cm}
+			\begin{enumerate} \itemsep -1pt
+			\item books
+			\item DVDs
+			\item resource kits for teachers
+			\end{enumerate}
+		\item engineering camps (for the summer in the United States): \url{http://www.engineeringedu.com/camps/}
+		\item {\it Women in Engineering} programs at US engineering schools: \url{http://www.engineeringedu.com/wie.html}
+		\item US engineering schools: \url{http://www.engineeringedu.com/engrschools.htm}
+		\item competitions for youths, including high school students: \url{http://www.engineeringedu.com/competitions.html}
+		\item online resources
+		\item list of professional organizations in engineering (or engineering societies): \url{http://www.engineeringedu.com/soc1.html}
+		\item scholarships: \url{http://www.engineeringedu.com/scholars.html}
+		\end{enumerate}
+	\item It has resources for K-12 students, and their teachers and parents. It also has information for girls who are seeking careers in engineering; in addition, it provides their parents and teachers with information to guide the girls.
+	\item It runs a workshop (in the US) for mother-daughter pairs to encourage girls to pursue careers in engineering.
+	\item \url{http://www.engineeringedu.com/}
+	\end{enumerate}
+\item TryNano.org: \vspace{-0.3cm}
+	\begin{enumerate} \itemsep -2pt
+	\item Information about educational opportunities and careers in nanotechnology and nanoscience
+	\item \url{TryNano.org}
+	\end{enumerate}
+\item {\it Lego Digital Designer (LDD)}: \vspace{-0.3cm}
+	\begin{enumerate} \itemsep -2pt
+	\item CAD software for building Lego toys on Windows and Mac OS X platforms
+	\item Free software, as in free beer
+	\item \url{http://designbyme.lego.com/en-us/Default.aspx} and \url{http://ldd.lego.com/}
+	\end{enumerate}
+\item {\it Mathematical Association of America} (MAA): \vspace{-0.3cm}
+	\begin{enumerate} \itemsep -2pt
+	\item Middle/High School Students: \url{http://www.maa.org/students/middle_high/}
+	\item Parents: \url{http://www.maa.org/students/Parents.html}
+	\item MAA American Mathematics Competitions: \vspace{-0.2cm}
+		\begin{enumerate} \itemsep -2pt
+		\item {\it Students} [resources]. Available at: \url{http://amc.maa.org/a-activities/a4-for-students/s-index.shtml}; last accessed on September 2, 2010.
+		\item It includes tips to help students do well in math contests and Olympiads, a reading list for students interested in mathematics, problems from past math contests and Olympiads, and other resources from the World Wide Web.
+		\end{enumerate}
+	\item {\it Fun Math Sites}. Available at: \url{http://www.maa.org/students/funsites.html}; last accessed on September 2, 2010.
+	\item Special Interest Group on Mathematics and the Arts (SIGMAA-ARTS): Resources, see \url{http://myweb.cwpost.liu.edu/aburns/sigmaa-arts/resources.html}.
+	\item Special Interest Group of the MAA on Quantitative Literacy (SIGMAA QL): \url{http://sigmaa.maa.org/ql/}
+	\end{enumerate}
+\item eGFI (Engineering, Go For It!): \vspace{-0.3cm}
+	\begin{enumerate} \itemsep -2pt
+	\item Provides information for students, parents, and teachers about educational pathways and careers in engineering
+	\item \url{http://egfi-k12.org/}
+	\end{enumerate}
+\item {\it Sloan Career Cornerstone Center}: \vspace{-0.3cm}
+	\begin{enumerate} \itemsep -2pt
+	\item Career exploration resources in STEM (science, technology, engineering, mathematics, computing, and healthcare)
+	\item \url{http://www.careercornerstone.org/}
+	\end{enumerate}
+\item {\it TryEngineering}: \vspace{-0.3cm}
+	\begin{enumerate} \itemsep -2pt
+	\item Career exploration resources for engineering
+	\item \url{http://www.tryengineering.org/}
+	\end{enumerate}
+\item {\it Women in Science, Technology, Engineering, and Mathematics ON THE AIR!}: \vspace{-0.3cm}
+	\begin{enumerate} \itemsep -2pt
+	\item Audio resources that describe stories about women in science, technology, engineering, and mathematics (STEM) fields
+	\item \url{http://www.womeninscience.org/}
+	\end{enumerate}
+\item {\it Junior Engineering Technical Society, JETS}: \vspace{-0.3cm}
+	\begin{enumerate} \itemsep -2pt
+	\item Career exploration resources for engineering
+	\item \url{http://www.jets.org/}
+	\end{enumerate}
+\item {\it American Society of Mechanical Engineers, ASME}: \vspace{-0.3cm}
+	\begin{enumerate} \itemsep -2pt
+	\item K-12 Student Resources: \url{http://www.asme.org/Communities/Students/K12/} and \url{http://www.asme.org/Education/PreCollege/EngineeringResources/}
+	\item Engineering Camps: \url{http://www.asme.org/Communities/Students/K12/Camps.cfm}
+	\end{enumerate}
+\item {\it American Society of Civil Engineers, ASCE}: \vspace{-0.3cm}
+	\begin{enumerate} \itemsep -2pt
+	\item Outreach resource for K-12 students, and their parents and teachers
+	\item \url{http://content.asce.org/asceville/index.html}
+	\end{enumerate}
+\item {\it Science.gov} (USA.gov for Science): Internship and Fellowship Opportunities in Science (for high school students); see \url{http://www.science.gov/internships/k-12.html}
+\item {\it iTunes U}: \vspace{-0.3cm}
+	\begin{enumerate} \itemsep -2pt
+	\item {\it iTunes} is required to listen to or watch these lectures, talks, and presentations.
+	\item Access {\it iTunes U} at: \url{http://deimos3.apple.com/indigo/main/main.html?v0=WWW-AMUS-ITUNESU070521-N48LX}
+	\item WGBH's Teachers' Domain -- Boston's PBS Station: Video presentation on ``Engineering for the Red Planet''; see \url{http://deimos3.apple.com/WebObjects/Core.woa/Browse/wgbh.org.1416254059.01416254061.1416793683?i=1951581658}. Also, check out its video clip on ``Carbon Fiber Car of the Future''.
+	\item {\it iTunes U} is a set of webcast and podcasts, where you can easily find audio and video clips for lectures, seminars, announcements, virtual tours, and so on. For example, some professors from schools like MIT or Berkeley will provide audio/video clips of their lectures on {\it iTunes U}.
+	\item This can help in exploring different majors during the college application process, or before a college student declares her/his major(s). If a student is not sure if she/he wants to double major in deaf studies and linguistics, this student can check out some linguistics lectures from her/his (preferred) college/university, if it uses {\it iTunes U}, or those from other universities.
+	\end{enumerate}
+\item High School Ace's College Prep Guide: \url{http://highschoolace.com/ace/colleges.cfm}
+\item {\it Dr. Sally Ride} (America’s first woman in space): \vspace{-0.3cm}
+	\begin{enumerate} \itemsep -2pt
+	\item {\it Sally Ride Science}'s resources for educators: \url{https://www.sallyridescience.com/for_educators}
+	\item Sally Ride Science Educator Institutes (to educate K-12 teachers about science): \url{https://www.sallyridescience.com/for_educators/institutes}
+	\item {\it Sally Ride Science Academy} helps teachers to increase their students' interest in science: \url{https://www.sallyridescience.com/academy}
+	\item {\it Sally Ride Science}'s resources for teachers: \url{https://www.sallyridescience.com/resources}
+	\item {\it Sally Ride Science Festivals} are events for girls from the $5^{th}$ grade to the $8^{th}$ grade: \url{https://www.sallyridescience.com/festivals}
+	\item {\it Sally Ride Science Camps} are summer camps for girls from the $4^{th}$ grade to the $9^{th}$ grade: \url{http://www.sallyridecamps.com/}
+	\item GRAIL MoonKAM: \vspace{-0.2cm}
+		\begin{enumerate} \itemsep -2pt
+		\item ``GRAIL MoonKAM (Moon Knowledge Acquired by Middle school students) is GRAIL's signature education and public outreach program.''
+		\item ``GRAIL MoonKAM will engage middle schools across the country in the GRAIL mission and lunar exploration.''
+		\item \url{https://www.grailmoonkam.com/}
+		\end{enumerate}
+	\item EarthKAM: \vspace{-0.2cm}
+		\begin{enumerate} \itemsep -2pt
+		\item EarthKAM (Earth Knowledge Acquired by Middle school students) is a NASA educational outreach program enabling students, teachers and the public to learn about Earth from the unique perspective of space.
+		\item \url{https://earthkam.ucsd.edu/}
+		\end{enumerate}
+	\end{enumerate}
+\item {\it American Association for the Advancement of Science, AAAS}: \vspace{-0.3cm}
+	\begin{enumerate} \itemsep -2pt
+	\item ENTRY POINT! for Students With Disabilities (in STEM): \url{http://www.aaas.org/careercenter/fellowships/} and \url{http://ehrweb.aaas.org/entrypoint/}
+	\item AAAS Mass Media Science \& Engineering Fellows Program (for STEM grad students to intern in mass media companies): \url{http://www.aaas.org/programs/education/MassMedia/}
+	\item Diversity Issues: \url{http://sciencecareers.sciencemag.org/career_magazine/diversity_issues/}
+	\item Internships involving science and journalism, human rights, scientific freedom, responsibility, or law: \url{http://www.aaas.org/careercenter/} and \url{http://www.aaas.org/careercenter/internships/scienceminority.shtml} (AAAS Minority Science Writers Internship)
+	\end{enumerate}
+\item {\it NASA} resources for students: \url{http://www.nasa.gov/audience/forstudents/index.html} and \url{http://www.nasa.gov/offices/education/programs/national/summer/education_resources/index.html} (NASA Summer of Innovation)
+\item {\it National Academy of Engineering}'s technological literacy program for people (students, parents, and educators) to learn more about technology: \url{http://www.nae.edu/nae/techlithome.nsf}
+\item {\it American Chemical Society} Science for Kids program (for students in K-12): \url{http://portal.acs.org/portal/acs/corg/content?_nfpb=true&_pageLabel=PP_TRANSITIONMAIN&node_id=878&use_sec=false&sec_url_var=region1&__uuid=984d4ee7-4214-4d35-9899-bc2f91dee58b}
+\item {\it California Digital Educator Consortium}, ``Digital Educator,'' Digital Learning Center: \url{http://www.digitaleducator.com/}
+\item Kenny Felder, ``Selected Other Educational Sites on the Web''. Available at: \url{http://www4.ncsu.edu/unity/lockers/users/f/felder/public/kenny/edulinks.html}; last accessed on August 28, 2010.
+\item FHSST (Free High School Science Texts); free textbooks for grades 10-12 in Physics, Chemistry, and Mathematics. Available at: \url{http://www.fhsst.org/}; last accessed on August 28, 2010.
+\item John Baez, {\it Usenet Physics FAQ}, Department of Mathematics, University of California, Riverside, September 2009. Available at: \url{http://math.ucr.edu/home/baez/physics/}; last accessed on August 28, 2010.
+\item {\it Women Scientists in History}: \url{http://www.hypatiamaze.org/}
+\item {\it American Society for Engineering Education}: \vspace{-0.3cm}
+	\begin{enumerate} \itemsep -2pt
+	\item Science and Engineering Apprenticeship Program (SEAP): \vspace{-0.2cm}
+		\begin{enumerate} \itemsep -2pt
+		\item ``The Science and Engineering Apprenticeship Program (SEAP) provides an opportunity for students to participate in research at a Department of Navy (DoN) laboratory during the summer.''
+		\item ``The goals of SEAP are to encourage participating students to pursue science and engineering careers, to further their education via mentoring by laboratory personnel and their participation in research, and to make them aware of DoN Research and technology efforts, which can lead to employment within the DoN.''
+		\item ``High school students who have completed at least Grade 9. A graduating senior is eligible to apply.''
+		\item ``Must be 16 years of age for most laboratories. Some laboratories may accept a 15 year old applicant. Please check individual lab description for more details.''
+		\item ``Applicants must be US citizens and participation by Permanent Resident Aliens is limited. Please check individual lab descriptions for participation of Permanent Resident Aliens.''
+		\item \url{http://seap.asee.org/}
+		\end{enumerate}
+	\end{enumerate}
+\item robots.net, {\it Robot Competitions} (list of robot competitions and contests) : \url{http://robots.net/rcfaq.html}
+\item International Council on Systems Engineering (INCOSE): \vspace{-0.3cm}
+	\begin{enumerate} \itemsep -2pt
+	\item Careers in Systems Engineering: \url{http://www.incose.org/educationcareers/careersinsystemseng.aspx}
+	\item Frequently Asked Questions for Students [about Systems Engineering]: \url{http://www.incose.org/educationcareers/faqsforstudents.aspx}
+	\item What is Systems Engineering?: \url{http://www.incose.org/practice/whatissystemseng.aspx}
+	\end{enumerate}
+\item {\it National Society of Professional Engineers}: \vspace{-0.3cm}
+	\begin{enumerate} \itemsep -2pt
+	\item A Sightseer's Guide to Engineering: \url{http://www.engineeringsights.org/}
+	\end{enumerate}
+\item {\it Engineers Dedicated to a Better Tomorrow (a.k.a., DedicatedEngineers)}: \vspace{-0.3cm}
+	\begin{enumerate} \itemsep -2pt
+	\item The ``K-12 Crowd'' (Students, Teachers, Guidance Counselors and Parents): \url{http://www.dedicatedengineers.org/intro_for_K-12.htm}
+	\item \url{http://www.dedicatedengineers.org/}
+	\end{enumerate}
+\item National Engineers Week Foundation: \vspace{-0.3cm}
+	\begin{enumerate} \itemsep -2pt
+	\item Discover Engineering: \url{http://www.discoverengineering.org/}
+	\item Introduce A Girl to Engineering: \url{http://www.eweek.org/EngineersWeek/IntroduceAGirl.aspx}
+	\item All About Engineering: \url{http://www.eweek.org/AboutEngineering/AboutEngineering.aspx}
+	\end{enumerate}
+\item Scholarships: \vspace{-0.3cm}
+	\begin{enumerate} \itemsep -2pt
+	\item IEEE Presidents' Scholarship: \url{http://www.ieee.org/education_careers/education/preuniversity/scholarship.html}
+	\item {\it P. O. Pistilli scholarship}: \vspace{-0.1cm}
+		\begin{enumerate} \itemsep -1pt
+		\item Supported by the Design Automation Conference which ACM/SIGDA sponsors, the objective of the P. O. Pistilli Scholarship is to increase the pool of professionals in Electrical Engineering and Computer Science from underrepresented groups (Women, African American, Hispanic, American Indian, and Disabled).
+		\item Scholarships of \$4000 per year, renewable for up to 5 years, are awarded annually to 2-7 high school seniors from the above mentioned under represented groups who have a 3.00 GPA or better (on a 4.00 scale), have demonstrated high achievement in math and science courses, have expressed a strong desire to pursue careers in electrical engineering, computer engineering, or computer science, and who have demonstrated substantial financial need.
+		\item U.S. citizenship is not required, but applicants must be U.S. residents when they apply and must plan to attend an accredited US college or university.
+		\item \url{http://www.sigda.org/pistilli.html}
+		\end{enumerate}
+	\item Engineering Education Service Center (EESC): \url{http://www.engineeringedu.com/scholars.html}
+	\item ASME-ASME Auxiliary FIRST Clarke Scholarships: \url{http://www.asme.org/Education/College/FinancialAid/High_School_Seniors.cfm} and \url{http://www.asme.org/Education/College/FinancialAid/Auxiliary_FIRST_Clarke.cfm}
+	\item International Petroleum Institute’s High School Scholarships (for individuals entering a college program in engineering): \url{http://www.asme-ipti.org/public/pagscholarshipprograms.aspx}
+	\item American Institute of Chemical Engineers (AIChE): \vspace{-0.2cm}
+		\begin{enumerate} \itemsep -2pt
+		\item Fuels and Petrochemicals Division Scholarship (for high school students entering undergraduate programs in engineering or science that are related to fuels and petrochemicals): \url{http://www.aiche.org/Students/Awards/F_PDScholarship.aspx}
+		\item Minority Scholarship Awards for Incoming College Freshmen (for underrepresented minorities entering an undergraduate chemical engineering program): \url{http://www.aiche.org/Students/Awards/MinorityScholarshipAwardsIncomingFreshmen.aspx}
+		\end{enumerate}
+	\item Sallie Mae Fund: \vspace{-0.3cm}
+		\begin{enumerate} \itemsep -2pt
+		\item \url{http://www.thesalliemaefund.org/smfnew/index.html}
+		\item List of scholarship resources: \url{http://www.thesalliemaefund.org/smfnew/sections/search.html}
+		\item Top 10 Tips for Planning and Paying for College: \url{http://www.thesalliemaefund.org/smfnew/fin_aid/index.html}
+		\item Scholarships: \url{http://www.thesalliemaefund.org/smfnew/scholarship/index.html} and \url{http://www.thesalliemaefund.org/smfnew/sections/apply.html}
+		\item Important information for parents about saving for college and getting financial aid: \vspace{-0.2cm}
+			\begin{enumerate} \itemsep -2pt
+			\item \url{http://www.thesalliemaefund.org/smfnew/sections/download.html}
+			\item This information is also available in Spanish. Summaries are also available in other languages such as: \vspace{-0.1cm}
+				\begin{itemize} \itemsep -1pt
+				\item French
+				\item German
+				\item Italian
+				\item Korean
+				\item Russian
+				\item Simplified and Traditional Chinese
+				\item Tagalog
+				\item Vietnamese
+				\end{itemize}
+			\item Top 10 Tips for Planning and Paying for College: \url{http://www.thesalliemaefund.org/smfnew/fin_aid/index.html}
+			\end{enumerate}
+		\item Kids2College program: \url{http://www.thesalliemaefund.org/smfnew/initiatives/kidscollege.html}
+		\item For African-American individuals entering college: \vspace{-0.2cm}
+			\begin{enumerate} \itemsep -2pt
+			\item Black College Dollars: \url{http://www.thesalliemaefund.org/smfnew/scholarship_directory/index.html}
+			\item \url{http://www.thesalliemaefund.org/smfnew/initiatives/aa.html}
+			\end{enumerate}
+		\item For Hispanic Americans, or Latinos/Latinas: \vspace{-0.2cm}
+			\begin{enumerate} \itemsep -2pt
+			\item \url{http://www.thesalliemaefund.org/smfnew/pdf/Scholarship_Directory.pdf}
+			\item Latino College Dollars: \url{http://www.latinocollegedollars.org/}
+			\end{enumerate}
+		\end{enumerate}
+	\item {\it American Chemical Society}: \vspace{-0.3cm}
+		\begin{enumerate} \itemsep -2pt
+		\item ACS Scholars Program (for underrepresented minorities in, or entering, an undergraduate program in chemistry, biochemistry, or chemical engineering): \url{http://portal.acs.org/portal/acs/corg/content?_nfpb=true&_pageLabel=PP_SUPERARTICLE&node_id=1650&use_sec=false&sec_url_var=region1&__uuid=b3b583cf-18ae-4fb0-9375-33f75a0ccf49}
+		\item Project SEED Scholarships (for high school seniors who have worked at least one summer at a science institute under the Project SEED program): \url{http://portal.acs.org/portal/acs/corg/content?_nfpb=true&_pageLabel=PP_SUPERARTICLE&node_id=2031&use_sec=false&sec_url_var=region1&__uuid=99bc6a62-3e78-4b2a-be3f-50b28f7ff265}
+		\end{enumerate}
+	\item The Posse Foundation: \url{http://www.possefoundation.org/}
+	\item Hispanic Scholarship Fund (HSF) scholarship programs for high school students: \url{http://www.hsf.net/innerContent.aspx?id=426}
+	\item Asian \& Pacific Islander American Scholarship Fund (APIASF): scholarships for individuals entering college as freshmen; see \url{http://www.apiasf.org/scholarship_apiasf.html}
+	\item Nationally Coveted College Scholarships, Graduate School Fellowships \& Postdoctoral Awards: \url{http://scholarships.fatomei.com/}
+	\item {\it SPIE} Scholarship Program (for high school students entering college to study optics, photonics, imaging, optoelectronics, or related program): \url{http://spie.org//x1733.xml?WT.svl=mddm14}
+	\item Susan G. Komen for the Cure\textregistered: The Komen College Scholarship Program, \url{http://ww5.komen.org/ResearchGrants/CollegeScholarshipAward.html}
+	\item National Society of Professional Engineers's list of scholarships for high school students: \url{http://www.nspe.org/Students/Scholarships/index.html}
+	\end{enumerate}
+\item Competitions outside of electrical engineering and computer science: \vspace{-0.3cm}
+	\begin{enumerate} \itemsep -2pt
+	\item AWM Essay Contest: Biographies of Contemporary Women in Mathematics; see \url{http://www.awm-math.org/biographies/contest.html}
+	\item National Engineers Week Future City Competition (students from $6^{th}$--$8^{th}$ grades): \url{http://www.futurecity.org/}
+	\end{enumerate}
+\item Resources for teachers: \vspace{-0.3cm}
+	\begin{enumerate} \itemsep -2pt
+	\item IEEE Teacher In-Service Program (TISP): \vspace{-0.2cm}
+		\begin{enumerate} \itemsep -2pt
+		\item \url{http://www.ieee.org/education_careers/education/preuniversity/tispt/index.html}
+		\item Lesson Plans for Pre-university Instructors: \url{http://www.ieee.org/education_careers/education/preuniversity/resources/index.html}
+		\end{enumerate}
+	\item Global Challenge Award: \url{http://www.globalchallengeaward.org/display/public/Home}
+	\item Teachers' Domain (to teach students about science, engineering, and the arts): \url{http://www.teachersdomain.org/}
+	\item {\it TeachEngineering} digital library: \vspace{-0.2cm}
+		\begin{enumerate} \itemsep -2pt
+		\item The {\it TeachEngineering} digital library provides teacher-tested, standards-based engineering content for K-12 teachers engineering content for K12 teachers to use in science and math classrooms. Engineering lessons connect real-world experiences with curricular content already taught in K-12 classrooms. Mapped to educational content standards, {\it TeachEngineering}'s comprehensive curricula are hands-on, free, and relevant to children's daily lives.
+		\item \url{http://www.teachengineering.com/index.php}
+		\end{enumerate}
+	\item Engineering Pathway: \url{http://www.engineeringpathway.com/ep/index.jhtml}
+	\item {\it American Society of Mechanical Engineers, ASME}: \url{http://www.asme.org/Education/PreCollege/TeacherResources/}
+	\item {\it National Science Foundation} resources for the K-12 classroom: \url{http://nsf.gov/news/classroom/engineering.jsp}
+	\item {\it NASA}: \url{http://www.nasa.gov/audience/foreducators/index.html}
+	\item The Mathematical Association of America: \vspace{-0.2cm}
+		\begin{enumerate} \itemsep -2pt
+		\item Pre-College Programs: \url{http://www.maa.org/funding/pre_college.html}. Also, see \url{http://www.maa.org/funding/undergraduate.html}.
+		\item Special Interest Group of the Mathematical Association of America on the use of the World-Wide Web in Undergraduate Mathematics Instruction (Web SIGMAA). Available at: \url{http://math.chapman.edu/websigmaa/index.php/Main_Page}; last accessed on September 2, 2010.
+		\item SIGMAA TAHSM (Teaching Advanced High School Mathematics). Available at: \url{http://sigmaa.maa.org/tahsm/}; last accessed on September 2, 2010.
+		\item Special Interest Group on Statistics Education: \url{http://sigmaa.maa.org/stat-ed/}
+		\end{enumerate}
+	\item Math for America: \vspace{-0.2cm}
+		\begin{enumerate} \itemsep -2pt
+		\item M$f$A Master Teacher Fellowship program: \vspace{-0.1cm}
+			\begin{enumerate} \itemsep -1pt
+			\item The Math for America Master Teacher Fellowship program rewards exceptional public secondary school math teachers with a four-year Fellowship.
+			\item M$f$A Master Teacher Fellowships are currently available in Berkeley, Boston and New York City.
+			\item \url{http://www.mathforamerica.org/web/guest/master-teachers}
+			\end{enumerate}
+		\item M$f$A Early Career Fellows: \vspace{-0.1cm}
+			\begin{enumerate} \itemsep -1pt
+			\item The Math for America Early Career Fellowship is awarded to public secondary school math teachers early in their careers.
+			\item The M$f$A Early Career Fellowship requires a commitment of four years and is available in New York City. 
+			\item \url{http://www.mathforamerica.org/early-career-fellows}
+			\end{enumerate}
+		\item M$f$A Fellows: \vspace{-0.1cm}
+			\begin{enumerate} \itemsep -1pt
+			\item \url{http://www.mathforamerica.org/web/guest/mfa-fellows}
+			\end{enumerate}
+		\item Teachers resources: \url{http://www.mathforamerica.org/web/guest/teacher-resources} and \url{http://www.mathforamerica.org/teacher-resources/classroom} (classroom resources)
+		\item Resources for professional development (teachers): \url{http://www.mathforamerica.org/teacher-resources/professional}
+		\item \url{http://www.mathforamerica.org/home}
+		\end{enumerate}
+	\item Association for Symbolic Logic (ASL): \vspace{-0.2cm}
+		\begin{enumerate} \itemsep -2pt
+		\item Guidelines on Logic Education: \url{http://www.ucalgary.ca/aslcle/guidelines}
+		\item Educational Logic Software: \url{http://www.ucalgary.ca/aslcle/logic-courseware}
+		\end{enumerate}
+	\end{enumerate}
+\item Underrepresented minorities: \vspace{-0.3cm}
+	\begin{enumerate} \itemsep -2pt
+	\item University of Washington: \vspace{-0.2cm}
+		\begin{enumerate} \itemsep -2pt
+		\item Department of Computer Science and Engineering: \vspace{-0.1cm}
+			\begin{enumerate} \itemsep -1pt
+			\item {\it AccessComputing}: \vspace{-0.1cm}
+				\begin{itemize} \itemsep -1pt
+				\item \url{http://www.washington.edu/accesscomputing/}
+				\item Has resources to help students with disabilities to pursue ``undergraduate and graduate degrees and careers in computing fields''.
+				\item It runs the ``Summer Academy for Advancing Deaf \& Hard of Hearing in Computing'' for youths who are hearing impaired: \url{http://www.washington.edu/accesscomputing/dhh/academy/index.html}
+				\end{itemize}
+			\end{enumerate}
+		\end{enumerate}
+	\item Engineer Girl: \vspace{-0.2cm}
+		\begin{enumerate} \itemsep -2pt
+		\item Resources for students, parents, and teachers to encourage girls to explore careers and educational opportunities in engineering
+		\item Created by the National Academy of Sciences and The National Academy of Engineering
+		\item Contests for K-12 students: \url{http://www.engineergirl.org/?id=4436}
+		\item \url{http://www.engineergirl.org/}
+		\end{enumerate}
+	\item Engineering Your Life: \url{http://www.engineeryourlife.org/}
+	\item GirlGeeks: \url{http://www.girlgeeks.org/}
+	\item National Society of Black Engineers (NSBE) competitions for high school/K-12 students: \url{http://www.nsbe.org/Programs/Competitions/NSBE-Jr-.aspx}
+	\item The Society of Mexican American Engineers and Scientists (MAES): MAES PreCollege Outreach Programs, \url{http://www.maes-natl.org/index.php?module=ContentExpress&func=display&ceid=16&meid=236}
+	\item {\it Center for the Advancement of Hispanics in Science and Engineering Education} (CAHSEE): \vspace{-0.2cm}
+		\begin{enumerate} \itemsep -2pt
+		\item STEM - The Science, Technology, Engineering \& Mathematics Institute (for students from grades 5 through 11): \url{http://www.cahsee.org/2programs/stem.asp.htm}
+		\item YEP - Young Educators Program (fellows would learn how to train students in the aforementioned STEM Institute): \url{http://www.cahsee.org/2programs/yep.asp.htm}
+		\item CAYSA - Central American Young Scholar Awards: \url{http://www.cahsee.org/2programs/caysa.asp.htm}. ``The CAYSA ceremonies honor more than 60 Washington, D.C. area high school seniors of Central American descent who have demonstrated remarkable success throughout all four years of high school. Students must be of Central American descent and have at least a 3.0 gpa.''
+		\item Scholarships: \url{http://www.cahsee.org/6resources/scholarships.asp.htm}
+		\item \url{http://www.cahsee.org/about/about.asp.htm}
+		\end{enumerate}
+	\end{enumerate}
+\end{enumerate}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Resources for Studying, Learning, and Research}
+\label{researchresources}
+
+Resources for research, and educational and learning material: \vspace{-0.3cm}
+\begin{enumerate} \itemsep -4pt
+\item International Technology Roadmap for Semiconductors (ITRS): \url{http://public.itrs.net/}
+\item Social networking sites: \vspace{-0.3cm}
+	\begin{enumerate} \itemsep -2pt
+	\item for academics, see \url{http://www.academia.edu/}
+	\item {\it weSRCH.com}: \vspace{-0.2cm}
+		\begin{enumerate} \itemsep -2pt
+		\item ``For professionals who engage in the fields of High Tech, Green Tech, and Medicine''
+		\item It has an online forum, and is a resource for news in the high tech, green tech, and bio tech industries.
+		\item \url{http://www.wesrch.com/}
+		\end{enumerate}
+	\end{enumerate}
+\item Online encyclopedia; see \url{http://openresearch.org/wiki/Main_Page}
+\item Educational resources and ``open-source'' textbooks: \vspace{-0.3cm}
+	\begin{enumerate} \itemsep -2pt
+	\item OpenCourseWare Consortium: \vspace{-0.2cm}
+		\begin{enumerate} \itemsep -2pt
+		\item \url{http://www.ocwconsortium.org/}
+		\item OCW Finder: \url{http://www.ocwfinder.org/}
+		\item MIT OpenCourseWare: \url{http://ocw.mit.edu/index.htm}
+		\end{enumerate}
+	\item Connexions: \url{http://cnx.org/}
+	\item Flat World Knowledge: \url{http://www.flatworldknowledge.com/}
+	\item Liquid Publications (LiquidPub): \url{http://project.liquidpub.org/}
+	\item OER Commons: \vspace{-0.2cm}
+		\begin{enumerate} \itemsep -2pt
+		\item A project of the Institute for the Study of Knowledge Management in Education, ISKME
+		\item \url{http://www.oercommons.org/}
+		\end{enumerate}
+	\item NIXTY: \url{http://nixty.com/}
+	\item Learning Is For Everyone: \url{http://www.learningis4everyone.org/}
+	\item BCcampus OER Portal: \url{http://freelearning.ca/about/}
+	\item iBerry: \vspace{-0.2cm}
+		\begin{enumerate} \itemsep -2pt
+		\item \url{http://iberry.com/}
+		\item \url{http://iberry.com/cms/} and \url{http://iberry.com/cms/OCW.htm}
+		\end{enumerate}
+	\item : \url{}
+	\item : \url{}
+	\item : \url{}
+	\item : \url{}
+	\item : \url{}
+	\item : \url{}
+	\item Open Educational Resources (OER): \url{http://wiki.creativecommons.org/OER}
+	\item Open Learning Initiative: \url{http://oli.web.cmu.edu/openlearning/}
+	\item Peer 2 Peer University (P2PU): \url{http://www.p2pu.org/}
+	\item Curtis J. Bonk, Book Resources [ for ] ``The World Is Open: How Web Technology Is Revolutionizing Education,'' Jossey-Bass (a Wiley imprint), San Francisco, CA. Available at: \url{http://worldisopen.com/resources.php}; last accessed on September 4, 2010.
+	\item Wikiversity (from the Wikimedia Foundation): \url{http://en.wikiversity.org/wiki/Wikiversity:Main_Page}
+	\item Einztein Knowledge Network: \url{http://www.einztein.com/}
+	\item Saylor Foundation: \url{http://www.saylor.org/}
+	\item Knewton: \url{http://www.knewton.com/}
+	\end{enumerate}
+\item Videos of lectures, research talks/presentations, and seminars: \vspace{-0.3cm}
+	\begin{enumerate} \itemsep -2pt
+	\item {\it iTunes U}: \url{http://www.apple.com/education/itunes-u/}
+	\item {\it YouTube}: \vspace{-0.2cm}
+		\begin{enumerate} \itemsep -2pt
+		\item \url{http://www.youtube.com/}
+		\item YouTube EDU: \url{http://www.youtube.com/education?b=400}
+		\end{enumerate}
+	\item \url{http://videolectures.net/}
+	\item Academic Earth: \url{http://www.academicearth.org/}
+	\item Mathematics: \vspace{-0.2cm}
+		\begin{enumerate} \itemsep -2pt
+		\item Institute for Mathematics and its Applications (IMA) at the University of Minnesota, Twin Cities: \url{http://www.ima.umn.edu/videos/}
+		\end{enumerate}
+	\end{enumerate}
+\item Open Culture: \vspace{-0.3cm}
+	\begin{enumerate} \itemsep -2pt
+	\item \url{http://www.openculture.com/}
+	\item ``free cultural \& educational media on the web''
+	\end{enumerate}
+\item Xuropa: \vspace{-0.3cm}
+	\begin{enumerate} \itemsep -2pt
+	\item the electronic design online community; the {\tt Facebook} for people working in EDA, IP design/verification/services, (rest of the) semiconductor industry (including design, CAD, verification, test, and device engineers), software industry, and systems people (including those in embedded systems, automobile industry, and medical systems)
+	\item see \url{http://xuropa.com/}
+	\end{enumerate}
+\end{enumerate}
+
+
+
+
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Thoughts and Resources for Specific Areas and Topics
+%	\input{./have2innovate/outreach}
+
+
+%	http://www1.ccny.cuny.edu/advancement/news/Location-Determines-Social-Network-Influence.cfm
+%	http://www.computerworld.com/s/article/9182138/MIT_builds_swimming_oil_eating_robots
+%	http://creativecommons.org/licenses/by-sa/3.0/us/
+
+{\linespread{1}
+%\bibliographystyle{IEEEtran}
+\bibliographystyle{plain}
+%\bibliography{./others/references}
+%\bibliography{/data/others/notes/references}
+\bibliography{/data/research/zhiyang_references/references}
+
+
+\addcontentsline{toc}{chapter}{Bibliography}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}

@@ -1,0 +1,75 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{\hspace{0.1in} Thoughts about Complex Systems}
+\label{complexsystemsthoughts}
+
+This subsection is shared under the {\it Creative Commons Attribution-NonCommercial 3.0 Unported License}; see \url{http://creativecommons.org/licenses/by-nc/3.0/}. \\
+\ \\
+\ \\
+Personally, I find the work of Prof. Barab{\'{a}}si and his students and alumni from his lab more interesting than the rest. In particular, scale-free complex networks introduce the concept of hierarchy in complex systems that other researchers had yet to address. \\
+
+Also, I had come across the concept of multi-dimensional complex systems that result from the interaction of multiple complex systems. For example, the World Wide Web, and social networks of people and animals would form ``multi-dimensional complex systems''. I am not sure if I got the term right. I would encourage you to google ``multi-dimensional complex systems'' and verify this concept. \\
+
+As of late 2005, the only complex systems that I knew of in engineering and computer science are the Internet (including the World Wide Web), electrical power distribution networks, and wireless networks of embedded/mobile devices (including wireless sensor networks). Then, a fair amount of work had been done about the Internet and electrical power distribution networks. Remember, this was pre-Obama days, and there was little talk (if any) about smart grids among laypeople.  \\
+
+So, I saw an opportunity in wireless networks that are employed in structural health monitoring and surveillance systems. That is, a network of embedded devices can be strategically placed around a civil engineering structure, such as a building or bridge, to acquire data about and measure vibrations, temperature, and humidity. These devices can also detect movement around and in the buildings (e.g., intrusion detection for surveillance systems). This is particularly helpful for home automation. With ``increased'' awareness about energy consumption, global warming, and environmental issues, such networks can be used to monitor usage of electricity, switch off home/computer appliances and lights when not in use, and optimize energy consumption in systems for heating, ventilating, and air conditioning (HVAC). These networks can serve as warning systems against terrorist attacks or military sabotage too; in addition, they can suggest safer escape routes for occupants in the buildings. However, I realize that this is an interdisciplinary research endeavor, and would involve faculty from different departments in a outstanding engineering school. Either that or professors would have to form their own networks with faculty from other universities, which is harder to accomplish. \\
+
+Since then, I realize that USC alum, Prof. Radu Marculescu (from CMU again), and his prot{\'{e}}g{\'{e}}, Dr. {\"{U}}mit Y. Ogras (now at Intel), have worked on network-on-chips (NoCs) for thousand-core processsors from around 2005-2007/2008. They used complex systems in their research, and Prof. Marculescu talked about this in his presentation on NoCs at the 2007 NSF-SRC-SIGDA-DAC Design Automation Summer School. Also, in Prof. Jan Rabaey's keynote speech on ``Design without Borders - A Tribute to the Legacy of A. Richard Newton'' at the Design Automation Conference 2007, he mentioned that IBM has mimicked the synchronized behavior of a swarm of fireflies in their design of the clock network for one of their ASICs or processors; this happened around 2005, see \url{http://videos.dac.com/44th/thurskey/thurskey.html}. So, ironically, when I couldn't find out how to combine my interests in complex systems and EDA (back in 2005), and subsequently decided to focus on EDA, some smart schmucks on the other side of the planet (when I was in Adelaide) or the country (when I was in LA) beat me to it. \\
+
+To extend what Prof. Marculescu did, you can look at GPGPU computing, since modern day graphics processors already have hundreds of computing cores on them. Some research groups are also looking at heterogeneous many-core processors. \\
+
+Back to Prof. Rabaey's speech, there is increasing interest in what Prof. Newton and Prof. Rabaey call Bio Design Automation (BDA). Enough interest in this field has resulted in a Workshop on BDA that is co-located with DAC. BDA can be used to address problems in synthetic biology, systems biology, and computational biology so that we can improve our understanding of complex biological networks such as protein interaction networks. In Prof. Rabaey's speech, he mentioned the following about BDA, ``This is not biology. This is not physics. This is hard core engineering.'' ... He also quoted Prof. Richard Newton, who said, ``The Future is BDA''. \\
+
+Addressing electrical power distribution networks again, President Obama's push for smart grids provide more exciting opportunities for researchers in complex systems and EDA, particularly when we demand that smart grids are designed with the following Self-X properties from organic/autonomic computing: context-awareness, self-adjustment, self-adaptation, (exhibit) self-awareness, be (dynamically) self-configuring [or auto-configuring], be self-healing, be self-managing, exercise self-monitoring, carry out self-optimization, be self-organizing, be self-protecting, be self-regulating, be self-repairing, (exhibit) self-situation, and be self-tuning. \\
+
+Back to Prof. Jan Rabaey and wireless networks... The technologies necessary for ambient intelligence to take off are in place. With increasing demand for embedded wireless devices, such as laptops/netbooks, smart phones, and tablet computers, and the availability of technologies such as wearable computing, we can have heterogeneous complex computational networks.  \\
+
+The health care reform that President Obama pushed for will see the use of heterogeneous complex computational networks in health care, and medical diagnostics and treatment. For example, PDAs can be used with health care (or medical) informatics systems to reduce paperwork and human errors. Here, we have social networks interacting with computer networks, which may result in errors that engineers and IT professionals are currently blind to - especially when the emergent behavior of complex systems (including social networks and computer networks) cannot be predicted by the analysis of each entity (person/device/computer) in the system. Furthermore, modern day surgical rooms employ multiple devices and equipment for (medical) imaging-guided robotic surgery. In these surgical rooms and the control room, where the surgeon(s) is(/are), there are many devices that are used to communicate information between devices and equipment so that the surgeon(s) can have real-time feedback during surgery. \\
+
+If you go through the resources mentioned above, most of the complex systems/networks that are studied are social networks, the Internet, economic networks, or biological networks. A fair amount of computer scientists have tackled problems in those topics with physicists, biologists, engineers, economists, and social scientists. The challenges and observations that I addressed, such as those in BDA, smart grids, ambient intelligence, and networks of heterogeneous many-core processors, have yet to be successfully tackled. Many open research problems in these topics remain to be solved. \\
+
+And now, for some shameless self-promotion... Each of the aforementioned engineering system would inevitably involve the use of pleiotropy (to reduce cost) and redundancy (to improve reliability/robustness). Prof. Derek Abbott, Dr. Matthew Berryman, a classmate Andy, and myself (with some advice from Dr. Andrew Allison) addressed the problem of finding a good trade-off between pleiotropy and redundancy in telecommunication networks. You can extend our multi-objective optimization approach to other complex systems, such as very large-scale networks of heterogeneous many-core processors; this is not the best method, but it is a decent approach. \\
+
+See the following reference for our approach: \\
+Zhiyang Ong, Andy H.-W. Lo, Matthew Berryman, and Derek Abbott, ``Multi-objective evolutionary algorithm for investigating the trade-off between pleiotropy and redundancy,'' in Proceedings of SPIE: Complex Systems, vol. 6039, Brisbane, Australia, pp. 237-248, December 11-14, 2005. \\
+
+
+Also, Joe Hellerstein (then at IBM Research, now at Microsoft Research - I believe) worked with his collaborators to use feedback control in designing computer systems, such as operating systems, queueing systems, server systems, and caches. See \url{http://domino.watson.ibm.com/comm/research.nsf/pages/d.compsci.joe.hellerstein.html}. Do not confuse this Joe Hellerstein with Prof. Joe Hellerstein from Berkeley who works with databases. For software with a large code base (millions of lines of code), the concurrent execution of its/their threads can be modeled as a complex system that interacts with other software, such as the operating system or (other) application software. You can extend the use of control systems/theory to other types of computing systems. Yet another interesting research challenge. \\
+
+Finally, Dr. Steve Burbeck has an awesome web page that address interesting research problems in complex engineering systems and complex biological networks; see \url{http://evolutionofcomputing.org/index.html}. He has also published many books on these topics, such as the following: \\
+\ \\
+S. Burbeck and K. E. Jordan, ``An assessment of the role of computing in systems biology,'' IBM Journal of Research and Development, Volume 50, Number 6, 2006, pp. 529-544. \\
+
+P/S: Access to articles from IBM Journal of Research and Development used to be free. You could download its journal papers from IBM's web page. However, thanks to the recession, their need to improve profit margins, and their greed, they are charging people money for access to these journal papers via IEEE Xplore. However, if you email one of the authors of these journal papers for a copy, they may be happy to provide you with a PDF copy. Dr. Burbeck was kind enough to gimme a PDF copy of this paper. \\
+
+
+
+\vspace{1cm}
+
+Addendum \#1 \\
+
+A recent edition of ACM TechNews (June 11, 2010) has an article about the Distributed Flight Array at ETH Zurich, which is about flying bots that self-assemble in midair. Imagine having millions of these flying bots engaged in various flight paths, where they may assemble or disassemble in mid-air... See \url{http://asia.cnet.com/crave/2010/06/11/flying-bots-that-self-assemble-midair/}. \\
+
+For researchers in aerial swarm robotics (or unmanned aerial vehicles), autonomous underwater vehicles (AUVs), autonomous robots (including the Roomba vacuum cleaner), unmanned ground (combat) vehicle, driverless cars (or autonomous road vehicles), and MEMS-based robotics... Imagine having hundreds of thousands or millions of these robots interacting with each other, just like people and animals/insects in social networks. The interaction between these robots will create emergent behavior that would be difficult to predict. Since researchers have ``control'' over these robots and can program them to have limited functions, researchers can use these populations of robots to study various behavior in how robots interact/communicate with each other. \\
+
+With reference to the Distributed Flight Array at ETH Zurich in Addendum 1, here is another resource for the Distributed Flight Array. See \url{http://spectrum.ieee.org/automaton/robotics/diy/robots-podcast-idsc-eth-zurich-distributed-flight-array}. \\
+
+
+\vspace{1cm}
+
+Addendum \#2 \\
+
+Prof. Matthew J. Salganik (currently at Princeton University) and his Ph.D. advisor, Dr. Duncan J. Watts (then at Columbia University) have done some interesting research on human/online social networks. Along with other researchers of human/online social networks, they are examining ``digital trails of people that [describe our] behavior, travel patterns, likes and dislikes, divulge who [our] friends are, and [reveals our] mood and [our] opinions''.  \\
+
+See \url{http://www.newscientist.com/article/mg20727701.100-social-networks-the-great-tipping-point-test.html?full=true} \\
+
+For students and professors at universities and colleges, you can access Prof. Salganik's Ph.D. thesis via ProQuest. Alternatively, you can email Prof. Salganik with a request to obtain a PDF copy of his Ph.D. thesis; I did that. \\
+
+For social scientists who are interested in complex systems, check out the syllabi for Prof. Salganik's classes at Princeton: \vspace{-0.3cm}
+\begin{enumerate} \itemsep -4pt
+\item Sociology 323: Social Networks, \url{http://www.princeton.edu/~mjs3/soc323_fa08.shtml}
+\item Sociology 598: Advanced Social Network Analysis, \url{http://www.princeton.edu/~mjs3/soc598_fa08.shtml}
+\item Sociology 596: Web-based Social Research, \url{http://www.princeton.edu/~mjs3/soc596_sp08.shtml}
+\end{enumerate}
+
+
+The first class is an undergraduate class, while the latter two are graduate-level classes for Masters and Ph.D. students.
