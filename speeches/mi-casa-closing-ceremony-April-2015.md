@@ -48,10 +48,15 @@ Two Tuesdays ago, at the "Community of Scholars" event at the MSC, I had dinner 
 
 
 This is a short Spanish poem that I wrote.
+
 ¡Qué hermosa velada
+
 Una deliciosa cena con los profesores y los amigos
+
 Una maravillosa conversación que se prolongó durante horas
+
 Gente increíble, comida deliciosa, fantástica conversación
+
 ¿Qué más puedo pedir?
 
 
