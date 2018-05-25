@@ -26,7 +26,7 @@ I am soliciting feedback, revisions, and corrections for this speech before the 
 
 
 
-See [Speech for the "Mi Casa Es Su Casa" Closing Ceremony [Long version]](https://github.com/eda-ricercatore/eecs-stem-outreach/blob/master/speeches/mi-casa-closing-ceremony-April-2015.md)
+See [Speech for the Spring 2015 "Mi Casa Es Su Casa" Closing Ceremony [Long version]](https://github.com/eda-ricercatore/eecs-stem-outreach/blob/master/speeches/mi-casa-closing-ceremony-April-2015.md)
 
 
 
