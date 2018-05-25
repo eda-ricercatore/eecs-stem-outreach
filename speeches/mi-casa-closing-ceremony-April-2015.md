@@ -62,7 +62,7 @@ Buenas noches!
 
 
 
-
+See [Speech for the Fall 2016 Opening Ceremony for the MSC CAMAC's "Mi Casa Es Su Casa" Program](https://github.com/eda-ricercatore/eecs-stem-outreach/blob/master/speeches/mi-casa-opening-ceremony-September-2016.md)
 
 
 

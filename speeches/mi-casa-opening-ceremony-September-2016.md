@@ -25,6 +25,15 @@ I am soliciting feedback, revisions, and corrections for this speech before the 
 
 
 
+
+See [Speech for the "Mi Casa Es Su Casa" Closing Ceremony [Long version]](https://github.com/eda-ricercatore/eecs-stem-outreach/blob/master/speeches/mi-casa-closing-ceremony-April-2015.md)
+
+
+
+
+
+
+
 ## Postscript
 
 All students can attend the "Mi Casa Es Su Casa" dinners. This includes graduate students, international students, students from any ethnic background or mix thereof, etc. Most students who participate in the program are undergraduates, and you do not have to be a member of MSC CAMAC to join.
