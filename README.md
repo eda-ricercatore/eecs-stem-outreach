@@ -43,7 +43,7 @@ It includes other resources for broadening participation of women and people
 
 [Educational resources from the film, "Dream Big: Engineering Our World"](https://www.dreambigfilm.com/education/). [Additional resources](https://www.asce.org/dream-big/)
 
-
+[Center for Computer Science Education & Outreach](https://www.utdallas.edu/k12/)
 
 
 
