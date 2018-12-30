@@ -6,7 +6,7 @@ Resources for outreach and broadening participation in science, technology, engi
 It includes information about scholarships and fellowships for studying at
 	institutions of higher education (i.e., colleges and universities), including
 	studying abroad.
-	
+
 It includes other resources for broadening participation of women and people
 	from underrepresented groups (including disabled people).  
 
@@ -41,10 +41,15 @@ It includes other resources for broadening participation of women and people
 ##	To Be Extended Over Time
 
 
-[Educational resources from the film, "Dream Big: Engineering Our World"](https://www.dreambigfilm.com/education/). [Additional resources](https://www.asce.org/dream-big/)
-
-[Center for Computer Science Education & Outreach](https://www.utdallas.edu/k12/)
-
++ [Educational resources from the film, "Dream Big: Engineering Our World"](https://www.dreambigfilm.com/education/). [Additional resources](https://www.asce.org/dream-big/)
++ [Center for Computer Science Education & Outreach](https://www.utdallas.edu/k12/)
++ **[Institute for Broadening Participation (IBP)](https://www.pathwaystoscience.org/index.aspx)**
+	- It has a lot of resources for increasing diversity in Science,
+		Technology, Engineering and Mathematics (STEM) fields.
+	- E.g., **it has programs for children and youth in K-12
+		(Kindergarten, and Grades 1-12).**
+	- **For high school students, there are paid internships for them.**
+	- [Resources concerning computer science (and computer engineering)](https://www.pathwaystoscience.org/Discipline.aspx?sort=TEC-ComputerSci_Computer%20Sciences)
 
 
 
@@ -69,4 +74,3 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 Email address: echo "cukj -wb- 23wU4X5M589 TROJANS cqkH wiuz2y 0f Mw Stanford" | awk '{ sub("23wU4X5M589","F.d_c_b. ") sub("Stanford","d0mA1n"); print $5, $2, $8; for (i=1; i<=1; i++) print "6\b"; print $9, $7, $6 }' | sed y/kqcbuHwM62z/gnotrzadqmC/ | tr 'q' ' ' | tr -d [:cntrl:] | tr -d 'ir' | tr y "\n"		Don't compromise my computing accounts. You have been warned.
-
