@@ -50,7 +50,8 @@ It includes other resources for broadening participation of women and people
 		(Kindergarten, and Grades 1-12).**
 	- **For high school students, there are paid internships for them.**
 	- [Resources concerning computer science (and computer engineering)](https://www.pathwaystoscience.org/Discipline.aspx?sort=TEC-ComputerSci_Computer%20Sciences)
-
++ [P.O. Pistilli Undergraduate Scholarship](http://www.sigda.org/node/48)
+	- "Supported by the Design Automation Conference which ACM/SIGDA sponsors, the objective of the P. O. Pistilli Scholarship is to increase the pool of professionals in Electrical Engineering and Computer Science from underrepresented groups (Women, African American, Hispanic, American Indian, and Disabled). Scholarships of $4000 per year, renewable for up to 5 years, are awarded annually to 2-7 high school seniors from the above mentioned under represented groups who have a 3.00 GPA or better (on a 4.00 scale), have demonstrated high achievement in math and science courses, have expressed a strong desire to pursue careers in electrical engineering, computer engineering, or computer science, and who have demonstrated substantial financial need. U.S. citizenship is not required, but applicants must be U.S. residents when they apply and must plan to attend an accredited US college or university."
 
 
 
