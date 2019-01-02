@@ -18,7 +18,7 @@ It includes other resources for broadening participation of women and people
 	- [Speech for the Spring 2015 "Mi Casa Es Su Casa" Closing Ceremony [Long version]](https://github.com/eda-ricercatore/eecs-stem-outreach/blob/master/speeches/mi-casa-closing-ceremony-April-2015.md)
 	- [Speech for the Fall 2016 Opening Ceremony for the MSC CAMAC's "Mi Casa Es Su Casa" Program](https://github.com/eda-ricercatore/eecs-stem-outreach/blob/master/speeches/mi-casa-opening-ceremony-September-2016.md)
 + [Notes](https://github.com/eda-ricercatore/eecs-stem-outreach/tree/master/notes)
-	- <span style="color:blue">some *These are notes that I wrote to share information about important concepts.* text</span>
+	- <span style="color:red">some *These are notes that I wrote to share information about important concepts.* text</span>
 	- [Computational music (or Music Computation) and Music Synthesis](https://github.com/eda-ricercatore/eecs-stem-outreach/blob/master/notes/computational_music.tex)
 	- [Notes about complex systems](https://github.com/eda-ricercatore/eecs-stem-outreach/blob/master/notes/complex_systems_thoughts.tex)
 	- [Generic notes about outreach activities](https://github.com/eda-ricercatore/eecs-stem-outreach/blob/master/notes/outreach_resources.tex)
