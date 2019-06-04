@@ -1,4 +1,4 @@
-#	Suggestions for IEEE and ACM to Create Research Funding for Women
+#	Suggestions for IEEE and ACM Members to Create Research Funding for Women
 
 Dear Women Engineers, Researchers, and Professors, I would encourage you to simultaneously do the following.
 
