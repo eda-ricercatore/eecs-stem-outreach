@@ -13,3 +13,5 @@ So, if you can rally individuals and organizations to make donations to IEEE Fou
 If you are willing to do the paperwork, and make the initial contacts with well-known professors, engineers, executives at engineering and high-tech companies, and researchers to create a new initiative for a new IEEE Future Direction, you can realize this sooner than later.
 
 Even though, I am not funded for my Ph.D. studies/research, I am willing to sacrifice meals to donate to this cause. You just need to do the paperwork, so that donors like me can specify that we want our donations to go directly to IEEE Foundation for funding Ph.D. fellowships and postdoctoral fellowships for women, and for funding research projects of women junior faculty members.
+
+Lastly, not only can you get similar organizations (such as ACM) to do likewise, but also jointly offer Ph.D. fellowships and postdoctoral fellowships for women, and funding for research projects of women junior faculty members.
