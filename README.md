@@ -32,8 +32,23 @@ It includes other resources for broadening participation of women and people
 	- [Main LaTeX document for the suggestions](https://github.com/eda-ricercatore/eecs-stem-outreach/blob/master/grad-school-suggestions/grad_school_notes.tex)
 	- This is a compilation of notes found in the subdirectory [Notes](https://github.com/eda-ricercatore/eecs-stem-outreach/tree/master/notes),
 		such as the following.
-		- [Notes about graduate school applications, or the application process for advanced degree programs](https://github.com/eda-ricercatore/eecs-stem-outreach/blob/master/notes/grad_school_apps.tex)
-		- [Resource for Ph.D. students, including advice and suggestions, and postdocs](https://github.com/eda-ricercatore/eecs-stem-outreach/blob/master/notes/phd_postdoc.tex)
+		* [Notes about graduate school applications, or the application process for advanced degree programs](https://github.com/eda-ricercatore/eecs-stem-outreach/blob/master/notes/grad_school_apps.tex)
+		* [Resource for Ph.D. students, including advice and suggestions, and postdocs](https://github.com/eda-ricercatore/eecs-stem-outreach/blob/master/notes/phd_postdoc.tex)
+	- [Suggestions for Writing Research Proposals to Get Funding](https://github.com/eda-ricercatore/eecs-stem-outreach/blob/master/others/suggestions-for-research-proposal-writing-to-get-funding.md)
+	- [Suggestions for IEEE and ACM to Create Research Funding for Women](https://github.com/eda-ricercatore/eecs-stem-outreach/blob/master/others/suggestions-for-IEEE-and-ACM-to-create-research-funding.md)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
