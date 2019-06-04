@@ -14,4 +14,7 @@ If you are willing to do the paperwork, and make the initial contacts with well-
 
 Even though, I am not funded for my Ph.D. studies/research, I am willing to sacrifice meals to donate to this cause. You just need to do the paperwork, so that donors like me can specify that we want our donations to go directly to IEEE Foundation for funding Ph.D. fellowships and postdoctoral fellowships for women, and for funding research projects of women junior faculty members.
 
+You can collaborate with Project Include to determine if men-led initiatives get reviewed and funded more oten than those led by women. Similarly, you can determine if the turn-over time for women-led initiatives are significant shorter, if not considerably shorter for men-led initiatives.
+
 Lastly, not only can you get similar organizations (such as ACM) to do likewise, but also jointly offer Ph.D. fellowships and postdoctoral fellowships for women, and funding for research projects of women junior faculty members.
+
