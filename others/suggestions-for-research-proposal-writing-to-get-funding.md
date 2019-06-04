@@ -1,9 +1,11 @@
-G'Day All,
+#	Suggestions for Writing Research Proposals to Get Funding
+
+
   I have been auditing a course/class on writing award-winning U.S. NSF (the U.S. National Science Foundation) proposals.
 
   If you want to be a tenure-track assistant professor (especially in U.S. research universities) after getting your Ph.D., the following can be helpful for you.
 
-  Firstly, he asks us to comply with the "Proposal & Award Policies & Procedures Guide" (PAPPG) from NSF. See https://www.nsf.gov/pubs/policydocs/pappg18_1/index.jsp and https://www.nsf.gov/publications/pub_summ.jsp?ods_key=pappg. Not abiding by NSF requirements can cause proposals to be rejected without review.
+  Firstly, he (the course instructor) asks us to comply with the "Proposal & Award Policies & Procedures Guide" (PAPPG) from NSF. See https://www.nsf.gov/pubs/policydocs/pappg18_1/index.jsp and https://www.nsf.gov/publications/pub_summ.jsp?ods_key=pappg. Not abiding by NSF requirements can cause proposals to be rejected without review.
 
   Secondly, regarding tenure-track assistant professors in U.S. research universities, he stressed the importance of writing research proposals to NSF instead of other agencies for funding. His argument is that other agencies/organizations (and companies) prefer to fund professors/researchers who are more famous, such as full professors at elite research universities. Also, getting a NSF CAREER award is typically considered as a necessary, but not sufficient, condition for getting tenure at a sufficiently good U.S. research university. Tenure (and promotion) evaluation committees care about how much research funding you can bring to the university.
 
@@ -32,10 +34,6 @@ G'Day All,
 
   Lastly, you can attend workshops for writing NSF proposal, with other tenure-track assistant professors.
 
-  Have a good day! Ciao!
-
-Regards,
-Zhiyang
 
 P/S: References for transformative research...
 
