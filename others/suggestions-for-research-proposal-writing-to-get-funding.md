@@ -73,5 +73,5 @@ PP/S: Sample email to contact professors who are NSF proposal awardees.
 
 		Thank you in advance! I look forward to hearing from you.
 
-Regards,
-[Your name]
+	Regards,
+	[Your name]
