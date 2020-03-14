@@ -16,11 +16,11 @@ He also strongly recommends connecting our research proposals to big ideas/chall
 Regarding NSF's focus on fundamental research, we have to demonstrate that the proposal is not developmental work (the "D" in R&D) nor an incremental improvement of prior work/project. E.g., they don't care about projects regarding software/process development or tool design (i.e., they want you to focus on generating/creating new knowledge, rather than creating artifacts/software/tools/processes), technology transfer, and commercialization of invented technologies. Hence, we should avoid using words such as "develop," "design," "optimize," "control," and "manage" in our research objectives.
 
 The acceptable (according to Dr. George Hazelrigg, former NSF program director, and Prof. Pei) research objectives for engineering programs in NSF, and to some extent science programs in NSF, are listed as follows.
-+ 1) To test hypothesis H
-+ 2) To measure parameter P with accuracy A
-+ 3) To prove conjecture C
-+ 4) To apply method M from field Q to solve problem X in field R
-+ 5) (from Prof. Pei) To establish a relationship between A & B, or to establish an effect of A on B.
+1) To test hypothesis H
+2) To measure parameter P with accuracy A
+3) To prove conjecture C
+4) To apply method M from field Q to solve problem X in field R
+5) (from Prof. Pei) To establish a relationship between A & B, or to establish an effect of A on B.
 
 The course instructor, Prof. Zhijian Pei at Texas A&M University, encourages us to find a "home program" in NSF, and write proposals mostly for that program. Some research topics can be funded via different NSF programs. Focusing your research on one/two NSF programs can build up your reputation among the proposal reviewers, and help you get funding.
 
