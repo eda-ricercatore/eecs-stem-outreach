@@ -66,12 +66,12 @@ P/S: References for transformative research...
 
 PP/S: Sample email to contact professors who are NSF proposal awardees.
 
-Dear Prof. XYZ,
-	I am a [Ph.D. student, postdoc, professor] at [name of primary affiliation]. I’d like to request a copy of your funded proposal (award # [number associated with NSF award, or funded proposal]) to learn about how to write winning NSF proposals. I only need the Project Summary and Project Description sections.
+	Dear Prof. XYZ,
+		I am a [Ph.D. student, postdoc, professor] at [name of primary affiliation]. I’d like to request a copy of your funded proposal (award # [number associated with NSF award, or funded proposal]) to learn about how to write winning NSF proposals. I only need the Project Summary and Project Description sections.
 
-	I can also access the Project Summary and Project Description sections of the aforementioned funded proposal via the NSF Freedom of Information Act (FOIA) officer. Because all funded NSF proposals are in public domain, copies of funded proposals can be obtained through the FOIA officer. However, it will take a long time and the FOIA officer will inform the PI anyway.
+		I can also access the Project Summary and Project Description sections of the aforementioned funded proposal via the NSF Freedom of Information Act (FOIA) officer. Because all funded NSF proposals are in public domain, copies of funded proposals can be obtained through the FOIA officer. However, it will take a long time and the FOIA officer will inform the PI anyway.
 
-	Thank you in advance! I look forward to hearing from you.
+		Thank you in advance! I look forward to hearing from you.
 
 Regards,
 [Your name]
